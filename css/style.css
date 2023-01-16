@@ -28,6 +28,10 @@
 }
 
 
+.wrap {
+  display: block;
+}
+
 	.cnt {display: block; overflow: hidden;}
 
 	.cnt img{
