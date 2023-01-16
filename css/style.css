@@ -1,8 +1,37 @@
-body {margin:0;padding:0;}
-.Wrap{margin:0;padding:0;overflow-x:hidden; list-style:none;}
-	.cnt {min-width:1300px;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li, ol, ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  table {
+    border-collapse:collapse;
+    border-spacing: 0;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+}
+
+
+	.cnt {display: block; overflow: hidden;}
+
 	.cnt img{
 	display:block;
 	position:relative;
-	left:50%;
-	margin-left:-1000px;}
+    left: 50%;
+    transform: translateX(-50%);}
