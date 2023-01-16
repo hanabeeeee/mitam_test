@@ -1,0 +1,8 @@
+body {margin:0;padding:0;}
+.Wrap{margin:0;padding:0;overflow-x:hidden; list-style:none;}
+	.cnt {min-width:1300px;}
+	.cnt img{
+	display:block;
+	position:relative;
+	left:50%;
+	margin-left:-1000px;}
